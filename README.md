@@ -12,6 +12,7 @@ UPLOAD
 DOWNLOAD
 DELETE
 RENAME
+
 2. Multi-Threaded File Server
 Extended the file server to support multiple simultaneous client requests using multi-threading. The functionalities include:
 
@@ -19,6 +20,7 @@ UPLOAD
 DOWNLOAD
 DELETE
 RENAME
+
 3. Synchronous RPC Computation Server
 Implemented a computation server supporting synchronous RPCs for the following operations:
 
@@ -26,6 +28,7 @@ calculate_pi()
 add(i, j)
 sort(array A)
 matrix_multiply(matrix A, matrix B, matrix C)
+
 4. Asynchronous RPC Computation Server
 Developed a computation server supporting asynchronous and deferred synchronous RPCs for the following operations:
 
